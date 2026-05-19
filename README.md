@@ -60,14 +60,6 @@ smart-complaint-system/
 - MongoDB running locally
 - Anthropic API key
 
-### Backend
-
-```bash
-cd backend
-npm install
-# Edit .env with your values
-npm run dev
-```
 
 **backend/.env**
 ```
@@ -78,13 +70,6 @@ OPENROUTER_API_KEY=...
 NODE_ENV=development
 ```
 
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
 
 **frontend/.env**
 ```
@@ -176,6 +161,6 @@ VITE_API_URL=http://localhost:5000/api
 
 ## 👤 Author
 
-**Your Name** — B.Tech 4th Semester  
+**Your Name** — Ayushmaan  
 AI Driven Full Stack Development (AI308B)  
 ESE Examination — Even Sem 2025-26
