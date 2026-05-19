@@ -1,13 +1,13 @@
 # 🏛️ CivicAI — Smart Complaint Management System
 
-An AI-powered MERN stack application for filing, tracking, and analyzing citizen complaints with Claude AI integration.
+An AI-powered MERN stack application for filing, tracking, and analyzing citizen complaints with OpenAI integration.
 
 ## 🚀 Tech Stack
 
 - **Frontend**: React + Vite, React Router, Axios
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Mongoose)
-- **AI**: Anthropic Claude API
+- **AI**: OpenRouter API
 - **Auth**: JWT + bcrypt
 - **Deployment**: Render
 
@@ -58,7 +58,7 @@ smart-complaint-system/
 ### Prerequisites
 - Node.js v18+
 - MongoDB running locally
-- Anthropic API key
+- OPENROUTER API KEY
 
 
 **backend/.env**
@@ -124,21 +124,21 @@ VITE_API_URL=http://localhost:5000/api
 ## 🌐 Deployment on Render
 
 ### Backend
-1. Create **Web Service** on Render
+1. Created **Web Service** on Render
 2. Build command: `npm install`
 3. Start command: `node server.js`
-4. Add environment variables:
+4. Added environment variables:
    - `MONGO_URI` → MongoDB Atlas connection string
    - `JWT_SECRET` → strong random string
-   - `ANTHROPIC_API_KEY` → your key
+   - `OPENROUTER API KEY` -> api key
    - `NODE_ENV=production`
 
 ### Frontend
-1. Create **Static Site** on Render
+1. Created **Static Site** on Render
 2. Build command: `npm install && npm run build`
 3. Publish directory: `dist`
-4. Add environment variable:
-   - `VITE_API_URL` → your Render backend URL + `/api`
+4. Added environment variable:
+   - `VITE_API_URL` → Render backend URL + `/api`
 
 ---
 
