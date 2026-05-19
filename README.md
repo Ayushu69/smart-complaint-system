@@ -73,8 +73,8 @@ npm run dev
 ```
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/complaintdb
-JWT_SECRET=your_jwt_secret
-ANTHROPIC_API_KEY=your_anthropic_api_key
+JWT_SECRET=...
+OPENROUTER_API_KEY=...
 NODE_ENV=development
 ```
 
