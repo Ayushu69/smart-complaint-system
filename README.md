@@ -130,7 +130,7 @@ VITE_API_URL=http://localhost:5000/api
 4. Added environment variables:
    - `MONGO_URI` → MongoDB Atlas connection string
    - `JWT_SECRET` → strong random string
-   - `OPENROUTER API KEY` -> api key
+   - `OPENROUTER API KEY` → api key
    - `NODE_ENV=production`
 
 ### Frontend
